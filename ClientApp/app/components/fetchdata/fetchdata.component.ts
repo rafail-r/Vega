@@ -12,7 +12,6 @@ export class FetchDataComponent {
         http.get(originUrl + '/api/SampleData/WeatherForecasts').subscribe(result => {
             this.forecasts = result.json() as WeatherForecast[];
         });
-        
     }
 }
 
