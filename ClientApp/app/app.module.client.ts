@@ -20,4 +20,4 @@ import { VehicleService } from "./services/vehicle.service";
     ]
 })
 export class AppModule {
-}
+} 
