@@ -14,11 +14,10 @@ namespace Vega.Models
 
         [Required]
         [StringLength(255)]
-
         public string Name { get; set; }
 
-        public Make Make { get; set; }
-
         public int Makeid { get; set; }
+
+        public Make Make { get; set; }
     }
 }

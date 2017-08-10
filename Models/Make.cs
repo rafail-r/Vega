@@ -17,8 +17,7 @@ namespace Vega.Models
         public string Name { get; set; }
 
         public ICollection<Model> Models { get; set; }
-
-        //make.Models = new Collection<Model>();
+        
         public Make()
         {
             Models = new Collection<Model>();
